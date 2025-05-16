@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.WakeMe" parent="android:style/TextAppearance"/>
+    <style name="Theme.WakeMe">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:fontFamily"></item>
+    </style>
 </resources>

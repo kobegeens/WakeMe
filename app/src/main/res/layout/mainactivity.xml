@@ -2,28 +2,36 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="2"
-        android:text="WakeMe" />
-    <TextView
-        android:id="@+id/version"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="V.0.1." />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:textSize="10sp"
+        android:gravity="center">
 
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/title"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="WakeMe" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/version"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="V.0.1."/>
+    </LinearLayout>
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="66dp"
+        android:layout_height="94dp"
         android:layout_weight="2"
         android:clickable="true"
         app:srcCompat="@android:drawable/ic_input_add" />
-
 
 </LinearLayout>
