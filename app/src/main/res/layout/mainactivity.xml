@@ -16,23 +16,30 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center|left"
-            android:layout_marginLeft="60dp"/>
+            android:layout_marginLeft="30dp"/>
         <TextView
             android:text="V.0.1."
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center|right"
-            android:layout_marginRight="60dp"/>
+            android:layout_marginRight="30dp"/>
     </LinearLayout>
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:layout_margin="30dp">
+
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="12"/>
+            android:layout_height="match_parent"
+            android:layout_weight="12" >
+        </ScrollView>
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            />
         <TextView
             android:layout_width="60dp"
             android:layout_height="60dp"
@@ -42,8 +49,6 @@
             android:focusable="true"
             android:gravity="center"
             android:text="+"
-            android:textSize="50sp"
-            android:layout_marginBottom="60dp"
-            android:layout_marginRight="60dp"/>
+            android:textSize="50sp" />
     </FrameLayout>
 </LinearLayout>
