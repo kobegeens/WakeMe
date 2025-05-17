@@ -2,6 +2,8 @@
 <resources>
     <style name="Theme.WakeMe">
         <item name="android:windowBackground">@color/background</item>
-        <item name="android:fontFamily"></item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/text</item>
     </style>
 </resources>

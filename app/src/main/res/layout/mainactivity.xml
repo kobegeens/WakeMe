@@ -7,31 +7,40 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="60dp"
         android:orientation="horizontal"
-        android:textSize="10sp"
-        android:gravity="center">
-
+        android:background="@color/background2">
         <TextView
+            android:text="WakeMe"
             android:layout_width="0dp"
-            android:id="@+id/title"
             android:layout_height="match_parent"
             android:layout_weight="5"
-            android:text="WakeMe" />
-
+            android:gravity="center|left"/>
         <TextView
+            android:text="V.0.1."
             android:layout_width="0dp"
-            android:id="@+id/version"
             android:layout_height="match_parent"
             android:layout_weight="2"
-            android:text="V.0.1."/>
+            android:gravity="center|left"/>
     </LinearLayout>
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
-        android:layout_width="66dp"
-        android:layout_height="94dp"
-        android:layout_weight="2"
-        android:clickable="true"
-        app:srcCompat="@android:drawable/ic_input_add" />
-
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"/>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|right"
+            android:background="@color/background2"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="+"
+            android:textSize="50sp"
+            android:layout_marginBottom="60dp"
+            android:layout_marginRight="60dp"/>
+    </FrameLayout>
 </LinearLayout>
