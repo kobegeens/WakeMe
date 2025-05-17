@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.WakeMe">
+    <style name="Theme.WakeMe" parent="Theme.Material3.DayNight">
         <item name="android:windowBackground">@color/background</item>
         <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textSize">25sp</item>
