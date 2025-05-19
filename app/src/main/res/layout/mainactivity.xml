@@ -36,11 +36,8 @@
             android:layout_height="match_parent"
             android:layout_weight="12" >
         </ScrollView>
-        <fragment
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            />
         <TextView
+            android:id="NewAlarm"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_gravity="bottom|end"
