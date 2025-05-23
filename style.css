@@ -2,6 +2,7 @@
     --textcolor: white;
     --backgroundcolor: #282828;
     --backgroundcolor2: #121212;
+    --accentcolor: #6495ED;
 }
 
 body {
@@ -13,8 +14,10 @@ body {
     text-align: center;
     align-items: center;
 }
-
+a, a:visited {
+    color: var(--accentcolor);
+}
 #navbar, footer {
     background-color: var(--backgroundcolor2);
-    padding: 0.25em;
+    padding: 1em;
 }
