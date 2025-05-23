@@ -1,0 +1,20 @@
+:root {
+    --textcolor: white;
+    --backgroundcolor: #282828;
+    --backgroundcolor2: #121212;
+}
+
+body {
+    background-color: var(--backgroundcolor);
+    color: var(--textcolor);
+    margin: 0;
+    font-family: sans-serif;
+    /*Alignment*/
+    text-align: center;
+    align-items: center;
+}
+
+#navbar, footer {
+    background-color: var(--backgroundcolor2);
+    padding: 0.25em;
+}
